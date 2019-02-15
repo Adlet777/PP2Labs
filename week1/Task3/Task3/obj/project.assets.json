@@ -694,9 +694,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Адлет\\Desktop\\PP2Labs\\week1\\Task3\\Task3\\Task3.csproj",
-      "projectName": "Task3",
-      "projectPath": "C:\\Users\\Адлет\\Desktop\\PP2Labs\\week1\\Task3\\Task3\\Task3.csproj",
+      "projectUniqueName": "C:\\Users\\Адлет\\Desktop\\PP2Labs\\week1\\Task3\\Task3\\Task3_2.csproj",
+      "projectName": "Task3_2",
+      "projectPath": "C:\\Users\\Адлет\\Desktop\\PP2Labs\\week1\\Task3\\Task3\\Task3_2.csproj",
       "packagesPath": "C:\\Users\\Адлет\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Адлет\\Desktop\\PP2Labs\\week1\\Task3\\Task3\\obj\\",
       "projectStyle": "PackageReference",

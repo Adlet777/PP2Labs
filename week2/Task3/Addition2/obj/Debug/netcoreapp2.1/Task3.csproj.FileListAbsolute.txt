@@ -1,0 +1,10 @@
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\bin\Debug\netcoreapp2.1\Task3.deps.json
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\bin\Debug\netcoreapp2.1\Task3.runtimeconfig.json
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\bin\Debug\netcoreapp2.1\Task3.runtimeconfig.dev.json
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\bin\Debug\netcoreapp2.1\Task3.dll
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\bin\Debug\netcoreapp2.1\Task3.pdb
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\obj\Debug\netcoreapp2.1\Task3.csproj.CoreCompileInputs.cache
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\obj\Debug\netcoreapp2.1\Task3.AssemblyInfoInputs.cache
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\obj\Debug\netcoreapp2.1\Task3.AssemblyInfo.cs
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\obj\Debug\netcoreapp2.1\Task3.dll
+C:\Users\Адлет\Desktop\PP2Labs\week2\Task3\Addition2\obj\Debug\netcoreapp2.1\Task3.pdb

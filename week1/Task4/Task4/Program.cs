@@ -6,19 +6,16 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            int[,] arr = new int[a, a];
+            int a = int.Parse(Console.ReadLine());      //entering an integer value
+            int[,] arr = new int[a, a];                 //creating a double array with the size of previously entered integer
 
-            for (int i = 0; i < a; i++)
+            for (int i = 0; i < a; i++)                 //starting a loop for each row in an array
             {
-                for (int j = 0; j < a; j++)
+                for (int j = 0; j <= i; j++)            //starting a loop inside the loop for each element, that is less than value of a current row, in a row
                 {
-                    if (j <= i)
-                    {
-                        Console.Write("[*]");
-                    }
+                        Console.Write("[*]");           //for each element inside the loop output "[*]"
                 }
-                Console.WriteLine();
+                Console.WriteLine();                    //output new line
             }
         }
     }

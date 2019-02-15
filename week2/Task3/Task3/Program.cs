@@ -20,6 +20,14 @@ namespace Task3
             foreach (var file in fi)
             {
                 Console.WriteLine(file.Name);
+                
+                if (file.GetType() == typeof(DirectoryInfo))
+                {
+                    DirectoryInfo dir3 = new DirectoryInfo(Path.GetFullPath(file.FullName);
+                    Console.WriteLine();
+                    DirectoryInfo[] di3 = dir3.GetDirectories();
+                }
+                
             }
             Console.WriteLine();
         }

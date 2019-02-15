@@ -7,27 +7,29 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-                     
-            FileStream fs = new FileStream(@"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder1\myfile.txt", FileMode.Create, FileAccess.Write);
-            StreamWriter sw = new StreamWriter(fs);
+            string path1 = @"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder1\myfile.txt";    //declaring two paths for to different locations of a file
+            string path2 = @"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder2\myfile.txt";    
 
-            sw.Write("Hey, this is my file!");
+            FileStream fs = new FileStream(path1, FileMode.Create, FileAccess.Write);           //creating a filestream for the first path with an access to write
+            StreamWriter sw = new StreamWriter(fs);                                             //starting streamwrite for this filestream
+
+            sw.Write("Hey, this is my file!");                                                  //writing a phrase in this file
 
             sw.Close();
 
-            File.Copy(@"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder1\myfile.txt", @"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder2\myfile.txt", true);
-            File.Delete(@"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder1\myfile.txt");
+            File.Copy(path1, path2, true);                                                      //copying this file to the second path
+            File.Delete(path1);                                                                 //deleting this file from the first path
 
             fs.Close();
 
-            FileStream fs2 = new FileStream(@"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder2\myfile.txt", FileMode.Open, FileAccess.Read);
-            StreamReader sr = new StreamReader(fs2);
+            FileStream fs2 = new FileStream(path2, FileMode.Open, FileAccess.Read);             //creating a filestream for the second path with an access to read
+            StreamReader sr = new StreamReader(fs2);                                            //starting streamreader for this filestream
 
-            string line = sr.ReadLine();
-            Console.WriteLine(line);
-            sr.Close();
+            string line = sr.ReadLine();                                                        //read line 
+            Console.WriteLine(line);                                                            //output the read line to console
+            sr.Close();                                                                         //stop streamreader
 
-            File.Delete(@"C:\Users\Адлет\Desktop\PP2Labs\week2\Task4\folder2\myfile.txt");
+            File.Delete(path2);                                                                 //delete this file from the second path
             fs2.Close();
 
             

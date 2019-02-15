@@ -2,31 +2,31 @@
 
 namespace Task2
 {
-    class Student
+    class Student                                                          //creating a new class "Student"
     {
-        public string name;
-        public string ID;
-        public int year;
+        private string name;                                               //creating three private variables
+        private string ID;
+        private int year;
 
-        public void PrintInfo()
+        public void PrintInfo(string name, string ID, int year)            //creating a public function to acces three private variables
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++)                                    //inside a function starting a loop 
             {
-                Console.WriteLine(name + " " + ID + " " + (year + i));
+                Console.WriteLine(name + " " + ID + " " + (year + i));     //in a loop output three variables with the third one incrementing on one each time
             }
         }
     }
 
-    class Program
+    class Program                                                           //
     {
         static void Main(string[] args)
         {
-            Student stud = new Student();
-            stud.name = Console.ReadLine();
-            stud.ID = Console.ReadLine();
-            stud.year = int.Parse(Console.ReadLine());
+            Student stud = new Student();                                   //creating element of a class "Student"
+            string name = Console.ReadLine();                               //entering a string variable
+            string ID = Console.ReadLine();                                 //entering a string variable
+            int year = int.Parse(Console.ReadLine());                       // entering an integer variable
 
-            stud.PrintInfo();
+            stud.PrintInfo(name, ID, year);                                 //calling a function from a class "Student"
         }
     }
 }
